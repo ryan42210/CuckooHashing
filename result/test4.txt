@@ -1,0 +1,37 @@
+Test.4 fixed key num of 2^24, fixed table size, change evict bound.
+--- 2 func ---
+evict bound | time | MOPS
+5 insert failed
+10 insert failed
+15 insert failed
+20 insert failed
+25 insert failed
+30 insert failed
+35 insert failed
+40 insert failed
+45 insert failed
+50 insert failed
+55 insert failed
+60 insert failed
+65 18.2246 920.581
+70 18.7026 897.054
+75 18.815 891.692
+80 insert failed
+--- 3 func ---
+evict bound | time | MOPS
+5 insert failed
+10 insert failed
+15 insert failed
+20 insert failed
+25 17.5566 955.605
+30 17.8811 938.268
+35 17.9278 935.823
+40 17.8814 938.247
+45 17.8759 938.54
+50 17.9448 934.936
+55 17.9419 935.087
+60 17.8897 937.816
+65 17.8665 939.03
+70 17.9217 936.138
+75 17.8693 938.886
+80 17.8684 938.93
